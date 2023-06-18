@@ -1,0 +1,113 @@
+:root{
+    --gold: gold;
+    --scarlet: rgb(112, 4, 4);
+    --gainsboro:gainsboro;
+    --blue: blue;
+    --oscuro:#000;
+    --titulos:'Arima Madurai',cursive;
+    --parrafos:'Mulish', sans-serif;
+}
+html{
+    margin: 0;
+    font-size: 60%;
+}
+body {
+    margin: 0;
+    background-color: gainsboro;
+}
+header {
+    background-color: var(--blue);
+    padding: none;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 20px black;
+}   
+
+h1,h2,h3{
+    font-family: var(--titulos);
+}
+p, a{
+    font-family: var(--parrafos);
+}
+.texto-contact{
+    text-align: center;
+    font-size: 70px;
+    color: gainsboro;
+    border-color:  black;
+}
+
+.info-contact{
+    background-color: silver;
+    margin: 20px auto;
+    border: 300px 400px;
+    border-radius: 20px;
+    padding: 30px 15px;
+    min-width: 100px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 600px;
+    box-shadow: 2px 2px 20px black;
+}
+.info-contact h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.info-contact p{
+    font-size: 16px;
+    text-align: center;
+}
+.info-contact h3{
+    text-align: center;
+    color: blue;
+    font-size: 13px;
+}
+.info-contact h1{
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    color: blue;
+    background-color: silver;
+    margin: 0 120px;
+    padding: 0 auto;
+}
+.form h1{
+    text-align: center;
+    font-size: 25px;
+}
+.form h3{
+    text-align: center;
+    font-size: 15px;
+}
+.message{
+    background-color: silver;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 15px 25px;
+    border: 10px;
+    min-width: 100px;
+    max-width: 350px;
+    min-height: 300px;
+    max-height: 700px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.info-content h3{
+    text-align: center;
+    align-items: center;
+}
+
+.pie-pagina{
+    background-color: rgb(20,20,20);
+    padding: 12px;
+}
+.navigation h3{
+    color: gold;
+    font-size: 16px;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--gainsboro);
+    padding: 2rem;
+    font-size: 15px;
+}

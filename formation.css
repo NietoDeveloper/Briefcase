@@ -1,0 +1,75 @@
+:root{
+    --gold: gold;
+    --scarlet: rgb(112, 4, 4);
+    --gainsboro:gainsboro;
+    --blue: blue;
+    --oscuro:#000;
+    --titulos:'Arima Madurai',cursive;
+    --parrafos:'Mulish', sans-serif;
+}
+html{
+    margin: 0;
+    font-size: 60%;
+}
+body {
+    margin: 0;
+    background-color: gainsboro;
+}
+header {
+    background-color: var(--blue);
+    padding: none;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 10px black;
+}   
+.texto-formation{
+    text-align: center;
+    font-size: 60px;
+    color: gainsboro;
+    border-color:  black;
+}
+h1,h2,h3{
+    font-family: var(--titulos);
+}
+p, a{
+    font-family: var(--parrafos);
+}
+.container {
+    background-color: silver;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 10px;
+    min-width: 100px;
+    max-width: 250px;
+    box-shadow: 2px 2px 20px black;
+}
+.step {
+    text-align: center;
+    align-items: flex;
+}
+.step h2{
+    font-size: 40px;
+}
+.step h3{
+    font-size: 24px;
+}
+.step p{
+    font-size: 10px;
+}
+
+.pie-pagina{
+    background-color: rgb(20,20,20);
+    padding: 12px;
+}
+.navigation h3{
+    color: gold;
+    font-size: 16px;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--gainsboro);
+    padding: 2rem;
+    font-size: 15px;
+}

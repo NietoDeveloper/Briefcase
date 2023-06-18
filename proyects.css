@@ -1,0 +1,112 @@
+:root{
+    --gold: gold;
+    --scarlet: rgb(112, 4, 4);
+    --gainsboro:gainsboro;
+    --blue: blue;
+    --oscuro:#000;
+    --titulos:'Arima Madurai',cursive;
+    --parrafos:'Mulish', sans-serif;
+}
+html{
+    margin: 0;
+    font-size: 60%;
+}
+body {
+    margin: 0;
+    background-color: gainsboro;
+}
+header {
+    background-color: var(--blue);
+    padding: none;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 10px black;
+}   
+.texto-proyects{
+    text-align: center;
+    font-size: 70px;
+    color: gainsboro;
+    border-color:  black;
+}
+h1, h2, h3{
+    font-family: var(--titulos);
+}
+p, a{
+    font-family: var(--parrafos);
+}
+.Tecnologies-Used{
+    text-align: center;
+    font-size: 30px;
+}
+
+.buttons-tecnologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.buttons-tecnologies button{
+    flex: 0 0 calc(50% - 1rem);
+    padding: 1rem 3rem;
+}
+@media(min-width: 1600px) {
+    .buttons-tecnologies{
+        display: inline-block;
+    }
+    .buttons-tecnologies button{
+        flex: unset;
+    }
+}
+@media(min-width: 1600px) {
+    .proyects{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+}
+.btn{
+    cursor: pointer;
+    color: var(--gainsboro);
+    background-color: var(--blue);
+}
+.proyect-background{
+    background-color: silver;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 30px 15px;
+    min-width: 70px;
+    max-width: 140px;
+    min-height: 100px;
+    max-height: 250px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+    justify-content: space-between;
+}
+.proyect h2 {
+    text-align: center;
+    color: var(--scarlet);
+    margin: 0px 10px;
+    padding: 0px 0px;
+    font-size: 20px;
+}
+.proyect h3 {
+    color: blue;
+    text-align: center;
+}
+.proyect p {
+    text-align: center;
+}
+.pie-pagina{
+    background-color: rgb(20,20,20);
+    padding: 12px;
+}
+.navigation h3{
+    color: gold;
+    font-size: 16px;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--gainsboro);
+    padding: 2rem;
+    font-size: 15px;
+}
