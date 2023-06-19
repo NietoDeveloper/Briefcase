@@ -23,7 +23,7 @@ header {
 }   
 .texto-formation{
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     color: gainsboro;
     border-color:  black;
 }
@@ -45,13 +45,17 @@ p, a{
 }
 .step {
     text-align: center;
-    align-items: flex;
 }
 .step h2{
     font-size: 40px;
 }
 .step h3{
+    color: blue;
     font-size: 24px;
+}
+.fab{
+    font-size: 50px;
+
 }
 .step p{
     font-size: 10px;
