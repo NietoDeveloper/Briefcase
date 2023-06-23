@@ -161,7 +161,7 @@ h3, p, a{
     right: 0;
     bottom: 0;
     height: 100vh;
-    width: 400px;
+    width: 350px;
     padding: 50px 50px;
     background-color: var(--oscuro);
     animation: desplazamiento .5s ease-in-out;
