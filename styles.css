@@ -160,8 +160,8 @@ h3, p, a{
     top: 0;
     right: 0;
     bottom: 0;
-    height: 100vh;
-    width: 350px;
+    height: 130px;
+    width: 300px;
     padding: 50px 50px;
     background-color: var(--oscuro);
     animation: desplazamiento .5s ease-in-out;
