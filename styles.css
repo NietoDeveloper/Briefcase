@@ -281,7 +281,7 @@ video{
     min-width: 80px;
     max-width: 150px;
     min-height: 80px;
-    max-height: 140px;
+    max-height: 220px;
     box-shadow: 2px 2px 20px black;
     display: flex;
 }
