@@ -131,18 +131,22 @@ h3, p, a{
   color: var(--gainsboro);  
 }
 .logo h2{
-    font-size: 50px;
-    margin: 25px 10px;
+    font-size: 3rem;
 }
 .navegacion a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2.2rem;
     padding: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 4rem;
     display: block;
     transition: color .3s ease-in-out;
     text-align: center;
+}
+
+@media(min-width: 768px) {
+    .navegacion a{
+        text-align: left;
+    }
 }
 
 
@@ -161,7 +165,7 @@ h3, p, a{
     right: 0;
     bottom: 0;
     height: 100vh;
-    width: 250px;
+    width: 320px;
     padding: 50px 50px;
     background-color: var(--oscuro);
     animation: desplazamiento .5s ease-in-out;
@@ -175,8 +179,8 @@ h3, p, a{
     background-color: var(--scarlet);
     display: block;
     width: 45px;
-    height: .4rem;
-    margin-bottom: .3rem;
+    height: .5rem;
+    margin-bottom: .4rem;
 }
 
 /*video*/
