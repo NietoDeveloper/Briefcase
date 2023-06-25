@@ -213,12 +213,12 @@ h3, p, a{
 }
 .texto-encabezado a{
     color: blue;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 @media(min-width: 1800px) {
     .texto-encabezado h2{
-        font-size: 60px;
+        font-size: 45px;
     }
 }
 
