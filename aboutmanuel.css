@@ -7,31 +7,180 @@
     --titulos:'Arima Madurai',cursive;
     --parrafos:'Mulish', sans-serif;
 }
-html{
-    margin: 0;
-    font-size: 60%;
-}
 body {
     margin: 0;
     background-color: gainsboro;
 }
-h1,h2,h3{
+html{
+    box-sizing: border-box;
+    margin: none;
+}
+/*globales*/
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+h1,h2{
     font-family: var(--titulos);
 }
-p, a{
+h3, p, a{
+    font-family: var(--titulos);
+}
+.foto {
+    max-width: 100%;
+}
+.gold{
+    color: var(--gold);
+}
+.blue{
+    color: var(--blue);
+}
+.scarlet{
+    color: var(--scarlet)
+}
+.ocultar{
+    display: none;
+}
+.btn-cerrar{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--scarlet);
+    position: absolute;
+    top: 0;
+    right: 60px;
+    user-select: none;
+
+}
+.pantalla-completa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 3;
+}
+@keyframes desplazamiento {
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform:translateX(0);
+    }
+}
+.btn-cerrar:hover{
+    cursor: pointer;
+}
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 1px 5px;
+    border-radius: 15px;
+    margin-top: 80px;
+    transition: all .3s ease-in-out;
+}
+@media(min-width: 1600px) {
+    .btn{
+        font-size: 2.2rem;
+    }
+}
+.bordes{
+    border: 3px solid var(--scarlet);
+}
+@media(min-width: 1600px) {
+    .bordes{
+        border: 4px solid var(--gainsboro);
+    }
+}
+.bordes:hover{
+    color: var(--scarlet);
+}
+.btn-scarlet{
+    background-color: var(--scarlet);
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn-gold{
+    background-color: var(--gold);
+    border: none;
+    display: inline-block;
+    margin-bottom: 2rem;
     font-family: var(--parrafos);
 }
-header {
-    background-color: var(--blue);
-    padding: none;
-    border-radius: 2rem;
-    box-shadow: 2px 2px 20px black;
-}   
-.texto-title{
+.btn-gold:hover{
+    background-color: var(--scarlet);
+}
+/*encabezado*/
+.contenedor-navegacion{
+    background-color: var(--oscuro);
+    position: relative;
+    z-index: 5;
+  
+}
+.contenido-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h2, .navegacion a {
+  color: var(--gainsboro);  
+}
+.logo h2{
+    font-size: 3rem;
+}
+.navegacion a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 1.5rem;
+    padding-left: 4rem;
+    display: block;
+    transition: color .3s ease-in-out;
     text-align: center;
-    font-size: 50px;
-    color: gainsboro;
-    border-color:  black;
+}
+
+@media(min-width: 768px) {
+    .navegacion a{
+        text-align: left;
+    }
+}
+
+
+.navegacion a:nth-child(even):hover{
+    color: var(--blue);
+}
+.navegacion a:nth-child(odd):hover{
+    color: var(--gold);
+}
+.navegacion a:first-of-type{
+    margin-top: 5rem;
+}
+.navegacion{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 320px;
+    padding: 50px 50px;
+    background-color: var(--oscuro);
+    animation: desplazamiento .5s ease-in-out;
+}
+
+.hamburguesa:hover{
+    cursor: pointer;
+}
+
+.hamburguesa span{
+    background-color: var(--scarlet);
+    display: block;
+    width: 45px;
+    height: .5rem;
+    margin-bottom: .4rem;
 }
 .presentation{
     text-align: center;
