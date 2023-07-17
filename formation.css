@@ -205,17 +205,22 @@ h3, p, a{
 .container:hover{
     border: 3px;
 	box-shadow: 0px 35px 40px black;
-	transform: translateY(-8%);
+	transform: translateY(-6%);
 }    
 .step {
     text-align: center;
 }
-.step h2{
+.step h2 {
     font-size: 35px;
 }
 .step h3{
     color: blue;
     font-size: 24px;
+}
+.step a {
+    color: var(--scarlet);
+    font-size: 20px;
+    
 }
 .fab{
     font-size: 40px;
