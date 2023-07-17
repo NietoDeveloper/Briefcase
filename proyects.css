@@ -14,6 +14,7 @@ body {
 html{
     box-sizing: border-box;
     margin: none;
+    padding: 0;
 }
 /*globales*/
 .contenedor{
@@ -182,39 +183,76 @@ h3, p, a{
     height: .5rem;
     margin-bottom: .4rem;
 }
-.title-proyects {
+
+
+.title-page{
     color: var(--scarlet);
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
-.proyect-background{
+.container {
     background-color: silver;
-    margin: 20px auto;
+    margin: 50px auto;
     border-radius: 20px;
-    padding: 30px 15px;
-    min-width: 70px;
-    max-width: 140px;
-    min-height: 100px;
-    max-height: 250px;
-    box-shadow: 2px 2px 20px black;
-    display: flex;
-    justify-content: space-between;
+    padding: 10px 20px;
+    border: 2px;
+    min-width: 150px;
+    max-width: 450px;
+    box-shadow: 10px 10px 20px black;
+    transition: all 400ms ease-out;
+	cursor: default;
 }
-.proyect h2 {
+.container:hover{
+    border: 3px;
+	box-shadow: 0px 35px 40px black;
+	transform: translateY(-7%);
+}    
+.step {
     text-align: center;
-    color: var(--scarlet);
-    margin: 0px 10px;
-    padding: 0px 0px;
-    font-size: 20px;
 }
-.proyect h3 {
+.step h2 {
+    font-size: 35px;
+}
+.step h3{
     color: blue;
-    text-align: center;
+    font-size: 24px;
 }
-.proyect p {
-    text-align: center;
+.step a {
+    color: var(--scarlet);
+    font-size: 20px; 
+}
+.step p {
+    font-size: 18px;
 }
 
+.button {
+    background-color: silver;
+    margin: 0px auto;
+    border-radius: 20px;
+    padding: 0px 5px;
+    border: 10px;
+    min-width: 150px;
+    max-width: 250px;
+    min-height: 120px;
+    max-height: 250px;
+    box-shadow: 4px 4px 12px blue;
+    display: flex;
+}
+.button:hover{
+    box-shadow: 0px 15px 25px blue;
+    transform: translateY(-6%);
+}    
+
+.step img {
+    margin: 3px 0px;
+    padding: 10px 23px;
+    min-width: 170px;
+    max-width: 200px;
+    min-height: 190px;
+    max-height: 270px;
+    border: 1px;
+   
+}
 
 .pie-pagina{
     background-color: rgb(20,20,20);
