@@ -16,9 +16,6 @@ html{
     margin: none;
     padding: 0;
 }
-*,*::after, *::before{
-    box-sizing: inherit;
-}    
 /*globales*/
 .contenedor{
     max-width: 120rem;
@@ -86,7 +83,7 @@ h3, p, a{
     margin-top: 80px;
     transition: all .3s ease-in-out;
 }
-@media(min-width: 1400px) {
+@media(min-width: 1600px) {
     .btn{
         font-size: 2.2rem;
     }
@@ -94,7 +91,7 @@ h3, p, a{
 .bordes{
     border: 3px solid var(--scarlet);
 }
-@media(min-width: 1400px) {
+@media(min-width: 1600px) {
     .bordes{
         border: 4px solid var(--gainsboro);
     }
