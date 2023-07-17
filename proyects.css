@@ -182,39 +182,10 @@ h3, p, a{
     height: .5rem;
     margin-bottom: .4rem;
 }
-.Tecnologies-Used{
+.title-proyects {
+    color: var(--scarlet);
     text-align: center;
     font-size: 30px;
-}
-
-.buttons-tecnologies{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.buttons-tecnologies button{
-    flex: 0 0 calc(50% - 1rem);
-    padding: 1rem 3rem;
-}
-@media(min-width: 1600px) {
-    .buttons-tecnologies{
-        display: inline-block;
-    }
-    .buttons-tecnologies button{
-        flex: unset;
-    }
-}
-@media(min-width: 1600px) {
-    .proyects{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap:wrap;
-    }
-}
-.btn{
-    cursor: pointer;
-    color: var(--gainsboro);
-    background-color: var(--blue);
 }
 .proyect-background{
     background-color: silver;
@@ -243,6 +214,8 @@ h3, p, a{
 .proyect p {
     text-align: center;
 }
+
+
 .pie-pagina{
     background-color: rgb(20,20,20);
     padding: 12px;
