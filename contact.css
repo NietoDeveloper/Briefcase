@@ -208,17 +208,20 @@ h3, p, a{
 .step {
     text-align: center;
     align-items: center;
-    text-align: center;
 }
 .step h2 {
+    font-size: 25px;
+    color: blue;
+}
+.step h3 {
+    color: blue;
     font-size: 15px;
 }
-.step h3 a{
-    color: blue;
-    font-size: 20px;
-}
 .step p {
-    font-size: 12px;
+    font-size: 15px;
+}
+.step a {
+    color: blue;
 }
 
 .button {
