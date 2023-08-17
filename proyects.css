@@ -144,7 +144,7 @@ h3, p, a{
     text-align: center;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 1768px) {
     .navegacion a{
         text-align: left;
     }
@@ -165,10 +165,11 @@ h3, p, a{
     top: 0;
     right: 0;
     bottom: 0;
-    height: 100vh;
-    width: 320px;
+    height: 1500px;
+    width: 100%;
     padding: 50px 50px;
-    background-color: var(--oscuro);
+    backdrop-filter: blur(10px);
+    background-color: transparent;
     animation: desplazamiento .5s ease-in-out;
 }
 
