@@ -83,7 +83,7 @@ h3, p, a{
     overflow: hidden;
     transition: 0.1s;
 }
-@media(min-width: 350px) {
+@media(min-width: 340px) {
     .neon{
         font-size: 20px;
     }
