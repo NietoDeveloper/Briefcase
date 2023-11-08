@@ -81,7 +81,7 @@ h3, p, a{
     
     text-decoration: none;
     overflow: hidden;
-    transition: 0.1s;
+    transition: 0.0010s;
 }
 @media(min-width: 340px) {
     .neon{
@@ -272,12 +272,7 @@ video{
     
     padding-top: 5rem;
 }
-@media(min-width: 1800px) {
-    .contenedor-nosotros{
-        display: flex;
-         justify-content: space-between;
-    }   
-}
+
 .texto-nosotros, .imagenes-nosotros{
    
     flex: 0 0 calc(50% - 1rem) ;
@@ -288,31 +283,20 @@ video{
     text-align: center;
     margin: 10px 0px;
 }
-@media(min-width: 1800px) {
-    .texto-nosotros .bienvenida{
-        text-align: left;
-    }
-}
+
 .texto-nosotros h1{
     font-size: 4rem;
     text-align: center;
 }
-@media(min-width: 1800px) {
-    .texto-nosotros h1{
-        text-align: left;
-    }
+.texto-nosotros h3{
+    font-size: 18px;
+    text-align: center;
 }
 .texto-nosotros p{
     font-size: 20px;
     text-align: center;
     margin: 50px 0px;
 }
-@media(min-width: 1800px) {
-    .texto-nosotros p{
-        text-align: left;
-    }
-}
-
 .glow-on-hover{
     margin: 50px auto;
     align-items: center;
