@@ -152,7 +152,7 @@ h3, p, a{
 
 
 .navegacion a:nth-child(even):hover{
-    color: var(--blue);
+    color: var(--scarlet);
 }
 .navegacion a:nth-child(odd):hover{
     color: var(--gold);
