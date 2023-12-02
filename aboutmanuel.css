@@ -129,7 +129,7 @@ h3, p, a{
     justify-content: space-between;
 }
 .logo h2, .navegacion a {
-  color: var(--scarlet);  
+  color: var(--blue);  
 }
 .logo h2{
     font-size: 3rem;
@@ -414,6 +414,7 @@ h3, p, a{
     color: gold;
     font-size: 16px;
     text-align: center;
+    
 }
 .footer{
     text-align: center;
