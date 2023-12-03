@@ -225,15 +225,15 @@ h3, p, a{
 
 .default-side {
 
-    background-color: var(--gold);
+    background-color: var(--scarlet);
     color: var(--blue);
     transform: translateZ(var(--half-btn-height));
 
 }
 
 .hover-side {
-    color: gold;
-    background-color: blue;
+    color: blue;
+    background-color: gold;
     transform: rotateX(90deg) translateZ(var(--half-btn-height));
 }
 
