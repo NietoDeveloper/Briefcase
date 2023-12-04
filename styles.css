@@ -340,10 +340,11 @@ a span:nth-child(1){
     text-align: center;
     margin: 50px 0px;
 }
+
 .glow-on-hover{
     margin: 50px auto;
     align-items: center;
-    width: 250px;
+    width: 300px;
     height: 230px;
     border: none;
     outline: none;
@@ -434,8 +435,7 @@ a span:nth-child(1){
     border-radius: 20px;
     padding: 0px 5px;
     border: 10px;
-    min-width: 150px;
-    max-width: 250px;
+    max-width: 300px;
     min-height: 120px;
     max-height: 220px;
     box-shadow: 2px 2px 40px black;
