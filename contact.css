@@ -192,7 +192,6 @@ h3, p, a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5px;
 }
 
 .btn-change {
@@ -206,6 +205,11 @@ h3, p, a{
     transform-style: preserve-3d;
     transition: transform 0.8s ease-in-out;
     transform: translateZ(calc(-1 * var(--half-btn-height)));
+}
+
+.change .btn-change .side .hover-side i {
+    display: flex;
+    padding: 7px 7px;
 }
 
 .btn-change:hover {
