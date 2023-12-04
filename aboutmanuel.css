@@ -221,7 +221,7 @@ h3, p, a{
 
 .btn-change {
 
-    --btn-height: 350px;
+    --btn-height: 250px;
     --half-btn-height: calc(var(--btn-height) / 2);
     text-align: center;
     height: var(--btn-height);
@@ -243,7 +243,7 @@ h3, p, a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     backface-visibility: hidden;
 } 
