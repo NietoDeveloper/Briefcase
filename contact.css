@@ -188,7 +188,6 @@ h3, p, a{
 .change {
     perspective: 300px;
     padding-top: 20px;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,9 +206,9 @@ h3, p, a{
     transform: translateZ(calc(-1 * var(--half-btn-height)));
 }
 
-.change .btn-change .side .hover-side i {
-    display: flex;
-    padding: 7px 7px;
+.change .btn-change i {
+    
+    padding-right: 20px;
 }
 
 .btn-change:hover {
@@ -224,7 +223,6 @@ h3, p, a{
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    font-weight: bold;
     backface-visibility: hidden;
 } 
 
@@ -237,6 +235,7 @@ h3, p, a{
 }
 
 .hover-side {
+    padding: 10px 10px;
     color: var(--scarlet);
     background-color: blue;
     transform: rotateX(90deg) translateZ(var(--half-btn-height));
