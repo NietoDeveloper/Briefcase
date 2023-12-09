@@ -241,17 +241,17 @@ h3, p, a{
 .container {
     background-color: silver;
     margin: 50px auto;
-    border-radius: 20px;
+    border-radius: 8px;
     padding: 10px 20px;
     border: 2px;
-    width: 220px;
+    width: 280px;
     box-shadow: 10px 10px 20px black;
     transition: all 400ms ease-out;
 	cursor: default;
 }
 @media screen and (min-width: 420px) {
     .container {
-        width: 280px;
+        width: 320px;
     }
 }
 @media screen and (min-width: 520px) {
@@ -261,17 +261,17 @@ h3, p, a{
 }
 @media screen and (min-width: 650px) {
     .container {
-        width: 440px;
+        width: 430px;
     }
 }
 @media screen and (min-width: 800px) {
     .container {
-        width: 550px;
+        width: 560px;
     }
 }
 @media screen and (min-width: 1100px) {
     .container {
-        width: 750px;
+        width: 720px;
     }
 }
 .container:hover{
@@ -297,31 +297,32 @@ h3, p, a{
 
 .button {
     background-color: silver;
-    margin: 15px auto;
-    border-radius: 20px;
-    padding: 15px 5px;
+    margin: auto;
+    border-radius: 9px;
+    padding: 20px 5px;
     border: 10px;
-    width: 210px;
+    width: 270px;
+    height: 170px;
     box-shadow: 4px 4px 12px black;
     display: flex;
     transition: all 400ms ease-out;
 }
 @media screen and (min-width: 420px) {
     .container .button {
-        width: 250px;
-        height: 160px;
+        width: 300px;
+        height: 185px;
     }
 }
 @media screen and (min-width: 520px) {
     .container .button {
-        width: 300px;
-        height: 180px;
+        width: 320px;
+        height: 210px;
     }
 }
 @media screen and (min-width: 650px) {
     .container .button {
-        width: 340px;
-        height: 210px;
+        width: 350px;
+        height: 230px;
     }
 }
 @media screen and (min-width: 800px) {
@@ -342,40 +343,40 @@ h3, p, a{
 }    
 
 .step img {
-    margin: 1px 5px;
-    width: 200px;
-    height: 150px;
+    margin: auto auto;
+    width: 270px;
+    height: 185px;
     border: 1px;
     display: flex;
 }
 @media screen and (min-width: 420px) {
     .container .step img {
-        width: 240px;
-        height: 165px;
+        width: 300px;
+        height: 185px;
     }
 }
 @media screen and (min-width: 520px) {
     .container .step img {
-        width: 290px;
-        height: 180px;
+        width: 320px;
+        height: 210px;
     }
 }
 @media screen and (min-width: 650px) {
     .container .step img {
-        width: 330px;
-        height: 210px;
+        width: 350px;
+        height: 230px;
     }
 }
 @media screen and (min-width: 800px) {
     .container .step img {
-        width: 440px;
+        width: 450px;
         height: 280px;
     }
 }
 @media screen and (min-width: 1100px) {
     .container .step img {
-        width: 640px;
-        height: 340px;
+        width: 650px;
+        height: 330px;
     }
 }
 
