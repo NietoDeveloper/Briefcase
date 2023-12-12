@@ -302,19 +302,17 @@ h3, p, a{
     font-size: 10px;
 }
 
-.pie-pagina{
-    background-color: rgb(20,20,20);
-    padding: 12px;
-}
-.navigation h3{
-    color: gold;
-    font-size: 16px;
-    text-align: center;
-}
-.footer{
-    text-align: center;
-    background-color: var(--oscuro);
-    color: var(--gainsboro);
-    padding: 2rem;
-    font-size: 15px;
-}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: hsl(222, 7%, 28%);
+    border-radius: 1px;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: silver;
+    border-radius: 1px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: black;
+  }

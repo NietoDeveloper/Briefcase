@@ -535,7 +535,7 @@ a span:nth-child(1){
 }
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 13px;
     background-color: hsl(222, 7%, 28%);
     border-radius: 1px;
   
