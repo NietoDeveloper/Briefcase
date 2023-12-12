@@ -421,4 +421,39 @@ h3, p, a{
     background-color: black;
   }
 
+  .pie-pagina{
+    font-size: 12px;
+    margin-top: 1rem;
+    background-color: rgb(20,20,20);
+    padding: 1rem;
+    color: gainsboro;
+    text-align: center;
+}
+@media(min-width:1800px){
+    .contenedor-piepagina{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.info{
+    flex: 0 0 calc(25% - 1rem);
+    margin-bottom: 1rem;
+}
+.info h3, a, .info p{
+    color: var(--gainsboro);
+    text-align: center;
+    font-family: var(--titulos);
+
+}
+.redes-pie{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--gainsboro);
+    padding: 2rem;
+    font-size: 15px;
+}
+
   
