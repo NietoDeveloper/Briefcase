@@ -395,9 +395,9 @@ h3, p, a{
     background-color: black;
   }
 
-  .pie-pagina{
-    font-size: 12px;
-    margin-top: 1rem;
+.pie-pagina{
+    font-size: 13px;
+    margin-top: opx;
     background-color: rgb(20,20,20);
     padding: 1rem;
     color: gainsboro;
@@ -417,7 +417,7 @@ h3, p, a{
     color: var(--gainsboro);
     text-align: center;
     font-family: var(--titulos);
-
+    
 }
 .redes-pie{
     text-align: center;
