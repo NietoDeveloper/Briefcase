@@ -550,7 +550,7 @@ a span:nth-child(1){
   }
 
 .pie-pagina{
-    font-size: 13px;
+    font-size: 1px;
     margin-top: 1rem;
     background-color: rgb(20,20,20);
     padding: 1rem;
@@ -571,7 +571,7 @@ a span:nth-child(1){
     color: var(--gainsboro);
     text-align: center;
     font-family: var(--titulos);
-    
+
 }
 .redes-pie{
     text-align: center;
