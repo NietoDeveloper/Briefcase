@@ -132,7 +132,8 @@ h3, p, a{
   color: var(--blue);  
 }
 .logo h2{
-    font-size: 3rem;
+    font-size: 50px;
+    margin-left: 20px;
 }
 .navegacion a{
     text-decoration: none;
