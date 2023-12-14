@@ -180,9 +180,10 @@ h3, p, a{
 .hamburguesa span{
     background-color: var(--scarlet);
     display: block;
-    width: 45px;
+    width: 55px;
     height: .5rem;
-    margin-bottom: .4rem;
+    margin-bottom: .5rem;
+    margin-right: 20px;
 }
 
 .change {
@@ -196,14 +197,14 @@ h3, p, a{
 
 .btn-change {
 
-    --btn-height: 250px;
+    --btn-height: 220px;
     --half-btn-height: calc(var(--btn-height) / 2);
     text-align: center;
     height: var(--btn-height);
-    width: 340px;
+    width: 320px;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.7s ease-in-out;
     transform: translateZ(calc(-1 * var(--half-btn-height)));
 }
 
@@ -218,8 +219,7 @@ h3, p, a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 40px;
     backface-visibility: hidden;
 } 
 
