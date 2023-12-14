@@ -180,9 +180,10 @@ h3, p, a{
 .hamburguesa span{
     background-color: var(--scarlet);
     display: block;
-    width: 45px;
+    width: 55px;
     height: .5rem;
-    margin-bottom: .4rem;
+    margin-bottom: .5rem;
+    margin-right: 20px;
 }
 
 /*video*/
