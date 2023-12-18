@@ -343,14 +343,28 @@ h3, p, a{
     font-size: 22px;
     color: var(--scarlet);
 }
+@media(min-width: 666px) {
+    .step h2 {
+        font-size: 28px;
+    }
+}
 .step h3{
     color: blue;
     font-size: 28px;
 }
+@media(min-width: 666px) {
+    .step h3 {
+        font-size: 38px;
+    }
+}
 .step p {
     font-size: 17px;
 }
-
+@media(min-width: 666px) {
+    .step p {
+        font-size: 21px;
+    }
+}
 .button {
     background-color: silver;
     margin: auto;
