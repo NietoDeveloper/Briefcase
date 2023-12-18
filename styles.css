@@ -348,6 +348,11 @@ a span:nth-child(1){
     text-align: center;
     margin: 10px 0px;
 }
+@media(min-width: 666px) {
+    .texto-nosotros .bienvenida{
+        font-size: 55px;
+    }
+}
 
 .texto-nosotros h1{
     font-size: 55px;
