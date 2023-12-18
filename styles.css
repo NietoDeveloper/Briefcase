@@ -358,6 +358,11 @@ a span:nth-child(1){
     font-size: 55px;
     text-align: center;
 }
+@media(min-width: 666px) {
+    .texto-nosotros h1 {
+        font-size: 65px;
+    }
+}
 .texto-nosotros h3{
     font-size: 20px;
     text-align: center;
