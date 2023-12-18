@@ -197,11 +197,6 @@ h3, p, a{
     }
 }
 
-/*video*/
-.contenido-header{
-    position: relative;
-}
-
 .contenido-header::before{
     content: '';
     position: absolute;
