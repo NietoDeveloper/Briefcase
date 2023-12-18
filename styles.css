@@ -335,8 +335,7 @@ a span:nth-child(1){
 }
 /*welcome*/
 .contenedor-nosotros{
-    
-    padding-top: 5rem;
+    padding-top: 50px;
 }
 
 .texto-nosotros, .imagenes-nosotros{
@@ -344,14 +343,14 @@ a span:nth-child(1){
     flex: 0 0 calc(50% - 1rem) ;
 }
 .texto-nosotros .bienvenida{
-    font-size: 34px;
+    font-size: 45px;
     color: var(--blue);
     text-align: center;
     margin: 10px 0px;
 }
 
 .texto-nosotros h1{
-    font-size: 4rem;
+    font-size: 55px;
     text-align: center;
 }
 .texto-nosotros h3{
