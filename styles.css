@@ -132,8 +132,14 @@ h3, p, a{
   color: var(--blue);  
 }
 .logo h2{
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 20px;
+}
+@media(min-width: 666px) {
+    .logo h2 {
+        margin-left: 30px;
+        font-size: 70px;
+    }
 }
 .navegacion a{
     text-decoration: none;
@@ -172,7 +178,6 @@ h3, p, a{
     background-color: transparent;
     animation: desplazamiento .5s ease-in-out;
 }
-
 .hamburguesa:hover{
     cursor: pointer;
 }
@@ -181,9 +186,15 @@ h3, p, a{
     background-color: var(--scarlet);
     display: block;
     width: 55px;
-    height: .5rem;
+    height: .4rem;
     margin-bottom: .5rem;
-    margin-right: 20px;
+    margin-right: 15px;
+}
+@media(min-width: 666px) {
+    .hamburguesa span {
+        margin-right: 30px;
+        width: 65px;
+    }
 }
 
 /*video*/
@@ -213,26 +224,37 @@ h3, p, a{
 }
 .texto-encabezado h2{
     color: var(--blue);
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
     margin: 0px 1px;
 }
-    @media(min-width: 1000px) {
+    @media(min-width: 700px) {
         .texto-encabezado h2{
-            font-size: 80px;
+            font-size: 70px;
         }
     }
 
 .texto-encabezado a{
     color: var(--scarlet);
     font-size: 30px;
+    margin-top: 100px;
     padding: 10px 4px;
+}
+@media(min-width: 700px) {
+    .texto-encabezado a{
+        font-size: 50px;
+    }
 }
 
 video{
     width: 100%;
-    height: 100%;
+    max-height: 90%;
 }
+    @media(min-width: 700px) {
+        .video {
+            max-height: 80%;
+        }
+    }
 
 
 .neon{
@@ -246,7 +268,7 @@ video{
 }
 @media(min-width: 340px) {
     .neon{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
