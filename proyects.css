@@ -275,10 +275,10 @@ h3, p, a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 50px;
     backface-visibility: hidden;
-} 
-
+}
+ 
 .default-side {
 
     background-color: var(--blue);
@@ -340,14 +340,15 @@ h3, p, a{
     text-align: center;
 }
 .step h2 {
-    font-size: 15px;
+    font-size: 22px;
+    color: var(--scarlet);
 }
 .step h3{
     color: blue;
-    font-size: 20px;
+    font-size: 28px;
 }
 .step p {
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .button {

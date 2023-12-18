@@ -25,9 +25,7 @@ html{
 h1,h2{
     font-family: var(--titulos);
 }
-h3, p, a{
-    font-family: var(--titulos);
-}
+
 .foto {
     max-width: 100%;
 }
@@ -298,7 +296,7 @@ h3, p, a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
     backface-visibility: hidden;
 } 
