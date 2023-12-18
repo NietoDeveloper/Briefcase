@@ -197,11 +197,6 @@ h3, p, a{
     }
 }
 
-/*video*/
-.contenido-header{
-    position: relative;
-}
-
 .contenido-header::before{
     content: '';
     position: absolute;
@@ -271,7 +266,7 @@ h3, p, a{
 }
 
 .change {
-    perspective: 250px;
+    perspective: 210px;
     padding-top: 30px;
     text-align: center;
     display: flex;
@@ -281,7 +276,7 @@ h3, p, a{
 
 .btn-change {
 
-    --btn-height: 220px;
+    --btn-height: 200px;
     --half-btn-height: calc(var(--btn-height) / 2);
     text-align: center;
     height: var(--btn-height);
