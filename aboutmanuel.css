@@ -279,7 +279,16 @@ h1,h2{
         height: 640px;
     }
 }
-
+@media(min-width: 800px) {
+    .pantalla-dividida .Aboutpic img {
+        height: 700px;
+    }
+}
+@media(min-width: 999px) {
+    .pantalla-dividida .Aboutpic img {
+        height: 810px;
+    }
+}
 .change {
     perspective: 210px;
     padding-top: 30px;
@@ -356,7 +365,7 @@ h1,h2{
 }
 @media screen and (min-width: 650px) {
     .container {
-        width: 440px;
+        width: 420px;
     }
 }
 @media screen and (min-width: 800px) {
@@ -380,14 +389,44 @@ h1,h2{
     text-align: center;
 }
 .step h2 {
-    font-size: 15px;
+    font-size: 17px;
+}
+@media(min-width: 600px) {
+    .step h2 {
+        font-size: 22px;
+    }
+}
+@media(min-width: 900px) {
+    .step h2 {
+        font-size: 27px;
+    }
 }
 .step h3{
     color: blue;
-    font-size: 20px;
+    font-size: 28px;
+}
+@media(min-width: 600px) {
+    .step h3 {
+        font-size: 36px;
+    }
+}
+@media(min-width: 900px) {
+    .step h3 {
+        font-size: 36px;
+    }
 }
 .step p {
-    font-size: 12px;
+    font-size: 16px;
+}
+@media(min-width: 600px) {
+    .step p {
+        font-size: 20px;
+    }
+}
+@media(min-width: 900px) {
+    .step p {
+        font-size: 24px;
+    }
 }
 
 .button {
