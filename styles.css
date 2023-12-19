@@ -132,7 +132,7 @@ h3, p, a{
   color: var(--blue);  
 }
 .logo h2{
-    font-size: 50px;
+    font-size: 45px;
     margin-left: 15px;
 }
 @media(min-width: 666px) {
@@ -224,7 +224,7 @@ h3, p, a{
 }
 .texto-encabezado h2{
     color: var(--blue);
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
     margin: 0px 1px;
 }
@@ -268,7 +268,7 @@ video{
 }
 @media(min-width: 340px) {
     .neon{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
