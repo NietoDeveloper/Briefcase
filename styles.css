@@ -133,7 +133,7 @@ h3, p, a{
 }
 .logo h2{
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 @media(min-width: 666px) {
     .logo h2 {
