@@ -248,7 +248,7 @@ h3, p, a{
 
 .change {
     perspective: 210px;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -279,7 +279,7 @@ h3, p, a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 50px;
     backface-visibility: hidden;
 } 
 
@@ -343,23 +343,58 @@ h3, p, a{
     text-align: center;
 }
 .step h2 {
-    font-size: 35px;
+    font-size: 30px;
+}
+@media screen and (min-width: 620px) {
+    .container .step h2 {
+        font-size: 45px;
+    }
+}
+@media screen and (min-width: 999px) {
+    .container .step h2 {
+        font-size: 55px;
+    }
 }
 .step h3{
     color: blue;
-    font-size: 24px;
+    font-size: 40px;
+}
+@media screen and (min-width: 620px) {
+    .container .step h3 {
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 999px) {
+    .container .step h3 {
+        font-size: 60px;
+    }
 }
 .step a {
     color: var(--scarlet);
     font-size: 20px;
-    
+}
+@media screen and (min-width: 620px) {
+    .container .step a {
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 999px) {
+    .container .step a {
+        font-size: 42px;
+    }
 }
 .fab{
-    font-size: 40px;
-
+    font-size: 50px;
 }
-.step p{
-    font-size: 10px;
+@media screen and (min-width: 620px) {
+    .container .step .fab {
+        font-size: 60px;
+    }
+}
+@media screen and (min-width: 999px) {
+    .container .step .fab {
+        font-size: 70px;
+    }
 }
 
 ::-webkit-scrollbar{
