@@ -317,14 +317,14 @@ h3, p, a{
     border-radius: 20px;
     padding: 10px 20px;
     border: 2px;
-    width: 235px;
+    width: 245px;
     box-shadow: 10px 10px 20px black;
     transition: all 400ms ease-out;
 	cursor: default;
 }
 @media screen and (min-width: 420px) {
     .container {
-        width: 280px;
+        width: 285px;
     }
 }
 @media screen and (min-width: 520px) {
