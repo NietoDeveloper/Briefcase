@@ -235,7 +235,7 @@ h3, p, a{
 }
 @media(min-width: 800px) {
     .texto-encabezado h2 {
-        font-size: 65px;
+        font-size: 62px;
     }
 }
 @media(min-width: 999px) {
@@ -246,18 +246,33 @@ h3, p, a{
 @media(min-width: 1100px) {
     .texto-encabezado h2 {
         margin-left: 30px;
-        font-size: 80px;
+        font-size: 85px;
     }
 }
 
 .texto-encabezado a{
     color: var(--scarlet);
-    font-size: 30px;
+    font-size: 28px;
     padding: 10px 4px;
 }
-@media(min-width: 700px) {
-    .texto-encabezado a{
-        font-size: 50px;
+@media(min-width: 600px) {
+    .texto-encabezado a {
+        font-size: 35px;
+    }
+}
+@media(min-width: 800px) {
+    .texto-encabezado a {
+        font-size: 40px;
+    }
+}
+@media(min-width: 999px) {
+    .texto-encabezado a {
+        font-size: 45px;
+    }
+}
+@media(min-width: 1100px) {
+    .texto-encabezado a {
+      font-size: 50px;
     }
 }
 
