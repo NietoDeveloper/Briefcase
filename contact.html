@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact Manuel</title>
@@ -59,6 +60,34 @@
         </div>
         <div class="container">
             <div class="step" alt="Bogota">
+                <form id="form">
+                    <!--Add action and method-->
+                    <div class="mb-3">
+                      <label for="subject" class="form-label">Asunto</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Asunto"
+                        name="subject"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Menssage</label>
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        rows="10"
+                        name="message"
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Send</button>
+                </form>     
+            </div>        
+        </div>
+
+        <div class="container">
+            <div class="step" alt="Bogota">
                 <h1>GitHub</h1>
                 <hr>
                 <a target="_blank" href="https://github.com/NietoDeveloper/"><h3><i class="fa fa-github" style="font-size:50px"></i></h3><p>github.com/NietoDeveloper</p></a>   
@@ -99,5 +128,6 @@
      <p>®Copyrights2024</P>
  </footer>
     <script src="app.js"></script>
+    <script src="sendEmail.js"></script>
 </body>
 </html>
