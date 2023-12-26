@@ -260,6 +260,7 @@ h3, p, a{
 
 
 .change {
+    cursor: pointer;
     perspective: 210px;
     padding-top: 10px;
     text-align: center;

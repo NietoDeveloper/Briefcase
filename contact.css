@@ -263,6 +263,7 @@ h3, p, a{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .btn-change {
@@ -320,7 +321,6 @@ h3, p, a{
     width: 250px;
     box-shadow: 10px 10px 20px black;
     transition: all 400ms ease-out;
-	cursor: default;
 }
 @media screen and (min-width: 420px) {
     .container {
@@ -431,6 +431,7 @@ h3, p, a{
     color: blue;
 }
 .button {
+    cursor: pointer;
     background-color: silver;
     margin: 0px 5px;
     border-radius: 20px;

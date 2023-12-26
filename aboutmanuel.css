@@ -307,6 +307,7 @@ h1,h2{
     }
 }
 .change {
+    cursor: pointer;
     perspective: 210px;
     padding-top: 30px;
     text-align: center;
@@ -368,7 +369,6 @@ h1,h2{
     width: 220px;
     box-shadow: 10px 10px 20px black;
     transition: all 400ms ease-out;
-	cursor: default;
 }
 @media screen and (min-width: 420px) {
     .container {
