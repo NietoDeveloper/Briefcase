@@ -132,7 +132,7 @@ h3, p, a{
   color: var(--blue);  
 }
 .logo h2{
-    font-size: 45px;
+    font-size: 46px;
     margin-left: 15px;
 }
 @media(min-width: 600px) {
@@ -235,7 +235,7 @@ h3, p, a{
 }
 .texto-encabezado h2{
     color: var(--blue);
-    font-size: 45px;
+    font-size: 46px;
     text-align: center;
     margin: 0px 1px;
 }

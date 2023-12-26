@@ -132,7 +132,7 @@ h3, p, a{
   color: var(--blue);  
 }
 .logo h2{
-    font-size: 45px;
+    font-size: 46px;
     margin-left: 15px;
 }
 @media(min-width: 600px) {
@@ -202,7 +202,7 @@ h3, p, a{
 .hamburguesa span{
     background-color: var(--scarlet);
     display: block;
-    width: 55px;
+    width: 50px;
     height: .4rem;
     margin-bottom: .5rem;
     margin-right: 15px;
