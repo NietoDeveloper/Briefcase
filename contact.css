@@ -458,9 +458,6 @@ h3, p, a{
     display: flex;
 }
 
-.container .form .button h3 {
-    font-size: 25px;
-}
 
 ::-webkit-scrollbar{
     width: 13px;
