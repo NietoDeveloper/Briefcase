@@ -359,6 +359,9 @@ h3, p, a{
 .step {
     text-align: center;
 }
+.step h1{
+    font-size: 40px;
+}
 .step h2 {
     font-size: 30px;
 }
@@ -374,9 +377,9 @@ h3, p, a{
 }
 .step h3{
     color: blue;
-    font-size: 28px;
+    font-size: 30px;
 }
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 650px) {
     .container .step h3 {
         font-size: 50px;
     }
