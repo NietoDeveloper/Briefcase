@@ -22,7 +22,7 @@ html{
     margin: 0 auto;
     width: 95%;
 }
-h1,h2{
+h1,h2,h3 {
     font-family: var(--titulos);
 }
 
@@ -378,20 +378,12 @@ video{
         transition: 1s;
         transition-delay: 0.75s;
     }
-/*welcome*/
-.contenedor-nosotros{
-    padding-top: 50px;
-}
 
-.texto-nosotros, .imagenes-nosotros{
-   
-    flex: 0 0 calc(50% - 1rem) ;
-}
 .texto-nosotros .bienvenida{
-    font-size: 45px;
+    font-size: 40px;
     color: var(--blue);
     text-align: center;
-    margin: 10px 0px;
+    margin-top: 60px;
 }
 @media(min-width: 666px) {
     .texto-nosotros .bienvenida{
@@ -405,16 +397,16 @@ video{
 }
 @media(min-width: 666px) {
     .texto-nosotros h1 {
-        font-size: 65px;
+        font-size: 70px;
     }
 }
 .texto-nosotros h3{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 @media(min-width: 666px) {
     .texto-nosotros h3{
-        font-size: 30px;
+        font-size: 70px;
     }
 }
 
