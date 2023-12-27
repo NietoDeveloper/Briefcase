@@ -293,7 +293,7 @@ h3, p, a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 45px;
     backface-visibility: hidden;
 }
  
@@ -366,21 +366,36 @@ h3, p, a{
         font-size: 28px;
     }
 }
+@media(min-width: 999px) {
+    .step h2 {
+        font-size: 32px;
+    }
+}
 .step h3{
     color: blue;
-    font-size: 28px;
+    font-size: 30px;
 }
 @media(min-width: 666px) {
     .step h3 {
         font-size: 38px;
     }
 }
+@media(min-width: 999px) {
+    .step h3 {
+        font-size: 48px;
+    }
+}
 .step p {
-    font-size: 17px;
+    font-size: 15px;
 }
 @media(min-width: 666px) {
     .step p {
-        font-size: 21px;
+        font-size: 20px;
+    }
+}
+@media(min-width: 999px) {
+    .step p {
+        font-size: 28px;
     }
 }
 .button {
