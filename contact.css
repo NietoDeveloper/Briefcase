@@ -507,6 +507,7 @@ h3, p, a{
 .container .step .send h3 {
     font-size: 30px;
     text-align: center;
+    align-items: center;
 }
 @media(min-width: 600px) {
     .container .step .send h3 {

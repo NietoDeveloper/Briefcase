@@ -22,7 +22,7 @@ html{
     margin: 0 auto;
     width: 95%;
 }
-h1,h2{
+h1,h2,h3,p {
     font-family: var(--titulos);
 }
 
@@ -340,7 +340,7 @@ h1,h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     backface-visibility: hidden;
 } 
@@ -406,7 +406,7 @@ h1,h2{
     text-align: center;
 }
 .step h2 {
-    font-size: 17px;
+    font-size: 18px;
 }
 @media(min-width: 600px) {
     .step h2 {
@@ -424,16 +424,16 @@ h1,h2{
 }
 @media(min-width: 600px) {
     .step h3 {
-        font-size: 36px;
+        font-size: 33px;
     }
 }
 @media(min-width: 900px) {
     .step h3 {
-        font-size: 36px;
+        font-size: 37px;
     }
 }
 .step p {
-    font-size: 16px;
+    font-size: 15px;
 }
 @media(min-width: 600px) {
     .step p {
