@@ -297,7 +297,7 @@ h3, p, a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 45px;
     backface-visibility: hidden;
 } 
 
@@ -374,7 +374,7 @@ h3, p, a{
 }
 .step h3{
     color: blue;
-    font-size: 40px;
+    font-size: 28px;
 }
 @media screen and (min-width: 620px) {
     .container .step h3 {
