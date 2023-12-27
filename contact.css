@@ -458,9 +458,7 @@ h3, p, a{
     padding: 0px 5px;
     border: 10px;
     min-width: 150px;
-    max-width: 250px;
     min-height: 120px;
-    max-height: 222px;
     box-shadow: 4px 4px 12px blue;
     display: flex;
     transition: all 400ms ease-out;
@@ -468,16 +466,70 @@ h3, p, a{
 .button:hover{
     box-shadow: 0px 18px 22px blue;
     transform: translateY(-6%);
-}    
+}  
 
-.step img {
-    margin: 7px 10px;
-    min-width: 120px;
-    max-width: 230px;
-    max-height: 150px;
-    border: 1px;
-    display: flex;
+.container .step .send {
+    margin-top: 20px;
+    width: 130px;
+    height: 110px;
+    background-color: gold;
+    cursor: pointer;
 }
+@media(min-width: 600px) {
+    .container .step .send {
+        width: 140px;
+        height: 130px;
+    }
+}
+@media(min-width: 800px) {
+    .container .step .send {
+        width: 165px;
+        height: 140px;
+    }
+}
+@media(min-width: 999px) {
+    .container .step .send {
+        width: 190px;
+        height: 160px;
+    }
+}
+@media(min-width: 1100px) {
+    .container .step .send {
+        width: 200px;
+        height: 180px;
+    }
+}
+
+.container .step .send:hover {
+    background-color: var(--scarlet);
+}
+
+.container .step .send h3 {
+    font-size: 30px;
+    text-align: center;
+}
+@media(min-width: 600px) {
+    .container .step .send h3 {
+        font-size: 40px; 
+    }
+}
+@media(min-width: 800px) {
+    .container .step .send h3 {
+        font-size: 50px;
+    }
+}
+@media(min-width: 999px) {
+    .container .step .send h3 {
+        font-size: 60px;
+    }
+}
+@media(min-width: 1100px) {
+    .container .step .send h3 {
+        font-size: 70px;
+    }
+}
+
+ 
 
 ::-webkit-scrollbar{
     width: 13px;
