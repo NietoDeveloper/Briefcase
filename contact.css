@@ -474,7 +474,7 @@ h3, p, a{
 }
     @media(min-width: 700px) {
         .send h3 {
-            font-size: 29px;
+            font-size: 32px;
         }
     }
 
@@ -496,7 +496,12 @@ h3, p, a{
         }
 .send:hover h3 {
     color: rgb(255, 123, 0);
-    font-size: 30px;
+    font-size: 28px;
+}
+@media(min-width: 700px) {
+    .send:hover h3 {
+        font-size: 40px;
+    }
 }
 
 .send span{
