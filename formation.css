@@ -137,17 +137,19 @@ h3, p, a{
 }
 @media(min-width: 600px) {
     .logo h2 {
+        margin-left: 25px;
         font-size: 55px;
     }
 }
 @media(min-width: 800px) {
     .logo h2 {
+        margin-left: 35px;
         font-size: 60px;
     }
 }
 @media(min-width: 999px) {
     .logo h2 {
-        margin-left: 30px;
+        margin-left: 45px;
         font-size: 65px;
     }
 }
