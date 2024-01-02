@@ -479,17 +479,17 @@ h3, p, a{
 
 .send:hover{
   
-    background: rgb(153, 255, 0);
-    box-shadow: 0 0 90px rgb(152, 253, 0),
-                0 0 110px rgb(155, 252, 10),
-                0 0 140px rgb(152, 253, 1);
+    background: rgb(0, 255, 0);
+    box-shadow: 0 0 90px rgb(0, 255, 0),
+                0 0 110px rgb(0, 255, 0),
+                0 0 140px rgb(0, 255, 0);
                 transition-delay: 0.7s;
 }
     @media screen and (min-width: 720px) {
             .send:hover {
-                box-shadow: 0 0 120px rgb(163, 255, 24),
-                0 0 150px rgb(155, 252, 10),
-                0 0 190px rgb(152, 253, 1);
+                box-shadow: 0 0 120px rgb(0, 255, 0),
+                0 0 150px rgb(0, 255, 0),
+                0 0 190px rgb(0, 255, 0);
 
             }
         }
@@ -513,7 +513,7 @@ h3, p, a{
     left: -100%;
     width: 100%;
     height: 90px;
-    background: linear-gradient(90deg, transparent, rgb(0, 240, 0));
+    background: linear-gradient(90deg, transparent, rgb(0, 255, 0));
 }
 
     @media screen and (min-width: 700px) {
