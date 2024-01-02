@@ -205,11 +205,9 @@ h1,h2,h3 {
     width: 50px;
     height: .4rem;
     margin-bottom: .5rem;
-    margin-right: 15px;
 }
 @media(min-width: 666px) {
     .hamburguesa span {
-        margin-right: 30px;
         width: 65px;
     }
 }
