@@ -138,16 +138,18 @@ h3, p, a{
 @media(min-width: 600px) {
     .logo h2 {
         font-size: 55px;
+        margin-left: 25px;
     }
 }
 @media(min-width: 800px) {
     .logo h2 {
         font-size: 60px;
+        margin-left: 35px;
     }
 }
 @media(min-width: 999px) {
     .logo h2 {
-        margin-left: 20px;
+        margin-left: 45px;
         font-size: 65px;
     }
 }
@@ -207,7 +209,6 @@ h3, p, a{
 }
 @media(min-width: 666px) {
     .hamburguesa span {
-        margin-right: 30px;
         width: 65px;
     }
 }
@@ -424,6 +425,8 @@ h3, p, a{
 }
 .step p {
     font-size: 15px;
+    color: blue;
+    text-decoration: none;
 }
 @media(min-width: 600px) {
     .step p {
