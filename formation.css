@@ -153,7 +153,7 @@ h3, p, a{
 }
 @media(min-width: 1100px) {
     .logo h2 {
-        margin-left: 30px;
+        margin-left: 55px;
         font-size: 70px;
     }
 }
