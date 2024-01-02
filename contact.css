@@ -514,7 +514,7 @@ h3, p, a{
     left: -100%;
     width: 100%;
     height: 90px;
-    background: linear-gradient(90deg, transparent, greenyellow);
+    background: linear-gradient(90deg, transparent, rgb(0, 240, 0));
 }
 
     @media screen and (min-width: 700px) {
@@ -531,7 +531,7 @@ h3, p, a{
     right: 0;
     width: 50px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, greenyellow);
+    background: linear-gradient(180deg, transparent, rgb(19, 255, 19));
 }
 .send:hover span:nth-child(2){
     left: 100%;
@@ -543,7 +543,7 @@ h3, p, a{
     right: -100%;
     width: 100%;
     height: 50px;
-    background: linear-gradient(270deg, transparent, greenyellow);
+    background: linear-gradient(270deg, transparent, rgb(15, 253, 15));
 }
 .send:hover span:nth-child(3){
     left: 100%;
@@ -555,12 +555,12 @@ h3, p, a{
     left: 0;
     width: 50px;
     height: 100%;
-    background: linear-gradient(270deg, transparent, greenyellow);
+    background: linear-gradient(270deg, transparent, rgb(36, 255, 36));
 }
 .send:hover span:nth-child(4){
     bottom: 100%;
     transition: 1s;
-    transition-delay: 0.75s;
+    transition-delay: 0.65s;
 }
 
  
