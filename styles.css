@@ -404,9 +404,9 @@ video{
     font-size: 25px;
     text-align: center;
 }
-@media(min-width: 666px) {
+@media(min-width: 700px) {
     .texto-nosotros h3{
-        font-size: 70px;
+        font-size: 40px;
     }
 }
 
