@@ -494,7 +494,7 @@ h3, p, a{
             }
         }
 .send:hover h3 {
-    color: rgb(255, 123, 0);
+    color: rgb(1, 102, 43);
     font-size: 28px;
 }
 @media(min-width: 700px) {
