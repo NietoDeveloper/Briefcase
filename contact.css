@@ -461,7 +461,7 @@ h3, p, a{
     overflow: hidden;
     transition: 0.0010s;
 }
-    @media screen and (min-width: 720px) {
+    @media screen and (min-width: 700px) {
         .send {
             width: 220px;
             height: 140px;
@@ -513,13 +513,13 @@ h3, p, a{
     top: 0;
     left: -100%;
     width: 100%;
-    height: 40px;
+    height: 90px;
     background: linear-gradient(90deg, transparent, greenyellow);
 }
 
-    @media screen and (min-width: 720px) {
+    @media screen and (min-width: 700px) {
         .send span:nth-child(1) {
-            height: 60px;
+            height: 140px;
         }
     }
 .send:hover span:nth-child(1){
