@@ -447,87 +447,115 @@ h3, p, a{
     }
 }
 
-.step a {
-    color: blue;
-}
-.button {
-    cursor: pointer;
-    background-color: silver;
-    margin: 0px 5px;
-    border-radius: 20px;
-    padding: 0px 5px;
-    border: 10px;
-    min-width: 150px;
-    min-height: 120px;
-    box-shadow: 4px 4px 12px blue;
-    display: flex;
-    transition: all 400ms ease-out;
-}
-.button:hover{
-    box-shadow: 0px 18px 22px blue;
-    transform: translateY(-6%);
-}  
 
-.container .step .send {
+.send{
+    cursor: pointer;
+    background-color: blue;
+    width: 160px;
+    height: 90px;
     margin-top: 20px;
-    width: 130px;
-    height: 110px;
-    background-color: gold;
-    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.0010s;
 }
-@media(min-width: 600px) {
-    .container .step .send {
-        width: 140px;
-        height: 130px;
+    @media screen and (min-width: 720px) {
+        .send {
+            width: 220px;
+            height: 140px;
+        }
     }
+.send h3 {
+    color: black;
+    font-size: 21px;
+    font-family: 'Exo', sans-serif;
 }
-@media(min-width: 800px) {
-    .container .step .send {
-        width: 165px;
-        height: 140px;
+    @media(min-width: 700px) {
+        .send h3 {
+            font-size: 29px;
+        }
     }
-}
-@media(min-width: 999px) {
-    .container .step .send {
-        width: 190px;
-        height: 160px;
-    }
-}
-@media(min-width: 1100px) {
-    .container .step .send {
-        width: 200px;
-        height: 180px;
-    }
-}
 
-.container .step .send:hover {
-    background-color: var(--scarlet);
+.send:hover{
+  
+    background: rgb(153, 255, 0);
+    box-shadow: 0 0 90px rgb(152, 253, 0),
+                0 0 110px rgb(155, 252, 10),
+                0 0 140px rgb(152, 253, 1);
+                transition-delay: 0.7s;
 }
+    @media screen and (min-width: 720px) {
+            .send:hover {
+                box-shadow: 0 0 120px rgb(163, 255, 24),
+                0 0 150px rgb(155, 252, 10),
+                0 0 190px rgb(152, 253, 1);
 
-.container .step .send h3 {
+            }
+        }
+.send:hover h3 {
+    color: rgb(255, 123, 0);
     font-size: 30px;
-    text-align: center;
-    align-items: center;
 }
-@media(min-width: 600px) {
-    .container .step .send h3 {
-        font-size: 40px; 
-    }
+
+.send span{
+    position: absolute;
+    display: block;
 }
-@media(min-width: 800px) {
-    .container .step .send h3 {
-        font-size: 50px;
-    }
+
+.send span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, transparent, greenyellow);
 }
-@media(min-width: 999px) {
-    .container .step .send h3 {
-        font-size: 60px;
+
+    @media screen and (min-width: 720px) {
+        .send span:nth-child(1) {
+            height: 60px;
+        }
     }
+.send:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
 }
-@media(min-width: 1100px) {
-    .container .step .send h3 {
-        font-size: 70px;
-    }
+.send span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, greenyellow);
+}
+.send:hover span:nth-child(2){
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.15s;
+}
+.send span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(270deg, transparent, greenyellow);
+}
+.send:hover span:nth-child(3){
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.send span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(270deg, transparent, greenyellow);
+}
+.send:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
 }
 
  
