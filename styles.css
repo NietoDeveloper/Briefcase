@@ -130,31 +130,31 @@ h1,h2,h3 {
   color: var(--blue);  
 }
 .logo h2{
-    font-size: 46px;
+    font-size: 32px;
     margin-left: 15px;
 }
 @media(min-width: 600px) {
     .logo h2 {
-        font-size: 55px;
-        margin-left: 25px;
+        font-size: 37px;
+        margin-left: 18px;
     }
 }
 @media(min-width: 800px) {
     .logo h2 {
-        font-size: 60px;
-        margin-left: 35px;
+        font-size: 42px;
+        margin-left: 23px;
     }
 }
 @media(min-width: 999px) {
     .logo h2 {
-        margin-left: 45px;
-        font-size: 65px;
+        margin-left: 26px;
+        font-size: 46px;
     }
 }
 @media(min-width: 1100px) {
     .logo h2 {
-        margin-left: 55px;
-        font-size: 70px;
+        margin-left: 30px;
+        font-size: 50px;
     }
 }
 
@@ -239,55 +239,55 @@ h1,h2,h3 {
 }
 .texto-encabezado h2{
     color: var(--blue);
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     margin: 0px 1px;
 }
 @media(min-width: 600px) {
     .texto-encabezado h2 {
-        font-size: 55px;
+        font-size: 48px;
     }
 }
 @media(min-width: 800px) {
     .texto-encabezado h2 {
-        font-size: 60px;
+        font-size: 51px;
     }
 }
 @media(min-width: 999px) {
     .texto-encabezado h2 {
-        font-size: 65px;
+        font-size: 55px;
     }
 }
 @media(min-width: 1100px) {
     .texto-encabezado h2 {
         margin-left: 30px;
-        font-size: 70px;
+        font-size: 65px;
     }
 }
 
 .texto-encabezado a{
     color: var(--scarlet);
-    font-size: 28px;
+    font-size: 25px;
     padding: 10px 4px;
 }
 @media(min-width: 600px) {
     .texto-encabezado a {
-        font-size: 35px;
+        font-size: 29px;
     }
 }
 @media(min-width: 800px) {
     .texto-encabezado a {
-        font-size: 40px;
+        font-size: 32px;
     }
 }
 @media(min-width: 999px) {
     .texto-encabezado a {
-        font-size: 45px;
+        font-size: 35px;
     }
 }
 @media(min-width: 1100px) {
     .texto-encabezado a {
-      font-size: 50px;
+      font-size: 38px;
     }
 }
 
