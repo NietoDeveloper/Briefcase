@@ -189,9 +189,9 @@ h1,h2,h3 {
     right: 0;
     bottom: 0;
     height: 1400px;
-    width: 100%;
+    width: 30%;
     padding: 50px 50px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
     background-color: transparent;
     animation: desplazamiento .5s ease-in-out;
 }
@@ -202,13 +202,15 @@ h1,h2,h3 {
 .hamburguesa span{
     background-color: var(--scarlet);
     display: block;
-    width: 50px;
-    height: .4rem;
-    margin-bottom: .5rem;
+    width: 45px;
+    height: 5px;
+    margin-bottom: 6px;
+    margin-right: 10px;
 }
 @media(min-width: 666px) {
     .hamburguesa span {
-        width: 65px;
+        width: 55px;
+        margin-right: 20px;
     }
 }
 
@@ -272,22 +274,22 @@ h1,h2,h3 {
 }
 @media(min-width: 600px) {
     .texto-encabezado a {
-        font-size: 29px;
+        font-size: 27px;
     }
 }
 @media(min-width: 800px) {
     .texto-encabezado a {
-        font-size: 32px;
+        font-size: 29px;
     }
 }
 @media(min-width: 999px) {
     .texto-encabezado a {
-        font-size: 35px;
+        font-size: 31px;
     }
 }
 @media(min-width: 1100px) {
     .texto-encabezado a {
-      font-size: 38px;
+      font-size: 32px;
     }
 }
 
