@@ -281,8 +281,8 @@ h1,h2,h3 {
  
 .default-side {
 
-    background-color: var(--blue);
-    color: var(--gold);
+    background-color: var(--gold);
+    color: var(--blue);
     transform: translateZ(var(--half-btn-height));
 
 }
