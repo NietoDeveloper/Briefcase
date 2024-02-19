@@ -42,33 +42,15 @@ h1,h2,h3 {
     display: none;
 }
 .btn-cerrar{
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 40px;
     color: var(--scarlet);
     position: absolute;
+    right: 15px;
     top: 0;
-    right: 60px;
     user-select: none;
 
 }
-.pantalla-completa{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0,0,0,.5);
-    z-index: 3;
-}
-@keyframes desplazamiento {
-    0%{
-        transform: translateX(100%);
-    }
 
-    100%{
-        transform:translateX(0);
-    }
-}
 .btn-cerrar:hover{
     cursor: pointer;
 }
@@ -160,11 +142,11 @@ h1,h2,h3 {
 
 .navegacion a{
     text-decoration: none;
-    font-size: 40px;
-    padding: 12px;
-    padding-left: 7rem;
+    font-size: 23px;
+    padding: 18px;
+    padding-left: 10px;
     display: block;
-    transition: color .3s ease-in-out;
+    transition: color .1s ease-in-out;
     text-align: center;
 }
 @media(min-width: 1768px) {
@@ -181,19 +163,19 @@ h1,h2,h3 {
     color: var(--gold);
 }
 .navegacion a:first-of-type{
-    margin-top: 5rem;
+    margin-top: 10px;
 }
 .navegacion{
     position: absolute;
-    top: 0;
+    top: 35px;
     right: 0;
     bottom: 0;
-    height: 1400px;
-    width: 30%;
-    padding: 50px 50px;
-    backdrop-filter: blur(8px);
+    height: 530px;
+    width: 20%;
+    padding: 60px 50px;
+    backdrop-filter: blur(23px);
     background-color: transparent;
-    animation: desplazamiento .5s ease-in-out;
+    animation: desplazamiento 1s ease-in-out;
 }
 .hamburguesa:hover{
     cursor: pointer;
@@ -236,7 +218,7 @@ h1,h2,h3 {
 }
 .texto-encabezado h2{
     color: var(--blue);
-    font-size: 45px;
+    font-size: 46px;
     text-align: center;
     margin: 0px 1px;
 }
