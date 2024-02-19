@@ -51,6 +51,26 @@ h1,h2,h3 {
 
 }
 
+.pantalla-completa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(17, 16, 39, 0.5);
+    z-index: 4;
+}
+
+@keyframes desplazamiento {
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform:translateX(0);
+    }
+}
+
 .btn-cerrar:hover{
     cursor: pointer;
 }
@@ -170,12 +190,12 @@ h1,h2,h3 {
     top: 35px;
     right: 0;
     bottom: 0;
-    height: 530px;
+    height: 500px;
     width: 20%;
     padding: 60px 50px;
-    backdrop-filter: blur(23px);
+    backdrop-filter: blur(25px);
     background-color: transparent;
-    animation: desplazamiento 1s ease-in-out;
+    animation: desplazamiento 0.45s ease-in-out;
 }
 .hamburguesa:hover{
     cursor: pointer;
